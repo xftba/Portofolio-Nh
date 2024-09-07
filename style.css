@@ -1,0 +1,119 @@
+* {
+    /* margin adalah ruang di sekitar border elemen */
+    margin: 0;
+    /* padding adalah ruang antara border elemen dan konten elemen */
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Poppins;
+}
+
+/* Display Flex */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: crimson;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul li a:hover{
+    text-decoration: none;
+    color: crimson;
+}
+
+.contact-btn .btn {
+    padding: 10px 20px 10px 20px;
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-btn .btn:hover {
+    padding: 15px 25px 15px 25px;
+    background-color: rgb(238, 46, 84);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#portofolio {
+    padding: 50px;
+    text-align: center;
+}
+
+#Portofolio h2 {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.project {
+    padding: 40px;
+    background-color: crimson;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.project:hover {
+    padding: 60px;
+    background-color: crimson;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#contact {
+    background-color: black;
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+#contact ul li a {
+    color: crimson;
+}
+
+footer {
+    text-align: center;
+}
